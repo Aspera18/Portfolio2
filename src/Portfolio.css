@@ -1,0 +1,255 @@
+/* src/Portfolio.css */  
+* {  
+  box-sizing: border-box;  
+}  
+
+body {  
+  margin: 0;  
+  font-family: Arial, sans-serif;  
+  background-color: gray;  
+}  
+
+.portfolio-container {  
+  max-width: 800px;  
+  margin: 20px auto;  
+  padding: 20px;  
+  background: darkslategray;  
+  border-radius: 10px;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+}  
+
+.header {  
+  text-align: left;  
+  background-color: #007bff;
+  background-image: url(headerbg.jpg);  
+  color: white;  
+  padding: 20px;  
+  border-radius: 10px;  
+}  
+
+.header img{
+  width: 20%;
+  height: 20%;
+  border-radius: 4rem;
+}
+
+h2 {  
+  margin-bottom: 10px;  
+}  
+
+.aboutcard {  
+  text-align: center;
+  color: black;
+  background-color: whitesmoke;
+  border: 1px solid #ced4da;  
+  border-radius: 5px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+}  
+
+.aboutcard:hover {  
+  transform: translateY(-3px);  
+  background-image: url(aboutcardbg.jpg); /* Change background on hover */  
+  color: whitesmoke;
+}  
+
+.achievementcard {  
+  text-align: center;
+  color: black;
+  background-color: whitesmoke;
+  border: 1px solid #ced4da;  
+  border-radius: 5px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+}  
+
+.achievementcard:hover {  
+  transform: translateY(-3px);  
+  background-image: url(aboutcardbg.jpg); /* Change background on hover */  
+  color: whitesmoke;
+}  
+.projects h2{
+  color: whitesmoke;
+  text-align: center;
+}
+
+.project-card1 {  
+  text-align: center;
+  background-image: url("project1.jpg");
+  border: 1px solid #ced4da;  
+  border-radius: 5px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+  color: whitesmoke;
+}  
+
+.project-card1 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.project-card2 {  
+  text-align: center;
+  background-image: url("cartographer.png");
+  color: whitesmoke;
+  background-color: black;
+  border: 1px solid #ced4da;  
+  border-radius: 5px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+}  
+
+.project-card2 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.project-card3 {  
+  text-align: center;
+  background-image: url(project3.jpeg); /* Change background on hover */  
+  background-color: darkkhaki;
+  border: 1px solid #ced4da;  
+  border-radius: 5px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+}  
+
+.project-card3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.skillscontainer {  
+  text-align: center;
+  color: black;
+  background-color: grey;
+  border: 1px solid #ced4da;  
+  border-radius: 5px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+}  
+
+.skillscard1 {  
+  text-align: left;
+  background-color: whitesmoke;
+  border: 1px solid #ced4da;  
+  border-radius: 10px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+  width:30%; 
+}  
+
+.skillscard1:hover {  
+  transition: background-color 0.3s ease;
+  background-color: yellow; /* Change background on hover */  
+  color: black;
+}  
+
+.skillscard2 {  
+  text-align: left;
+  background-color: whitesmoke;
+  border: 1px solid #ced4da;  
+  border-radius: 10px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+  width:12%; 
+}  
+
+.skillscard2:hover {  
+  transition: background-color 0.3s ease;
+  background-color: purple; /* Change background on hover */  
+  color: white;
+}  
+
+.skillscard3 {  
+  text-align: left;
+  background-color: whitesmoke;
+  border: 1px solid #ced4da;  
+  border-radius: 10px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+  width:50%; 
+}  
+
+.skillscard3:hover {  
+  transition: background-color 0.3s ease;
+  background-color: blue; /* Change background on hover */  
+  color: white;
+}  
+
+.skillscard4 {  
+  text-align: left;
+  background-color: whitesmoke;
+  border: 1px solid #ced4da;  
+  border-radius: 10px;  
+  margin: 10px 0;  
+  padding: 15px;  
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+  width:60%; 
+}  
+
+.skillscard4:hover {  
+  transition: background-color 0.3s ease;
+  background-color: palevioletred; /* Change background on hover */  
+  color: black;
+}  
+
+.footer {  
+  text-align: left;  
+  text-decoration: none;
+  background-image: url(headerbg.jpg);  
+  color: white;  
+  padding: 20px;  
+  border-radius: 10px;  
+} 
+
+.footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* Responsive Styles */  
+@media (max-width: 600px) {  
+  .portfolio-container {  
+      margin: 10px;  
+      padding: 15px;  
+  }  
+  
+  .header, .about, .projects, .skills, .contact .achievement{  
+      padding: 10px;  
+  }  
+
+  .projects h2 {
+      position: absolute;
+      text-align: center;
+  }
+  
+  .project-card1 {  
+      padding: 10px;  
+      margin: 5px 0;  
+  }  
+
+  .project-card2 {  
+      padding: 10px;  
+      margin: 5px 0;  
+  }  
+
+  .project-card3 {  
+      padding: 10px;  
+      margin: 5px 0;  
+  }  
+
+  .project-card4 {  
+      padding: 10px;  
+      margin: 5px 0;  
+  }  
+}
